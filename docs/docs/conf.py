@@ -23,6 +23,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.viewcode',
     'sphinx.ext.todo',
+    'sphinx.ext.napoleon',
 ]
 
 templates_path = ['_templates']
@@ -40,3 +41,6 @@ html_static_path = ['_static']
 # https://www.sphinx-doc.org/en/master/usage/extensions/todo.html#configuration
 
 todo_include_todos = True
+
+napoleon_google_docstring = True # Para o formato Googledoc
+napoleon_numpy_docstring = True # Para o formato Numpydoc
